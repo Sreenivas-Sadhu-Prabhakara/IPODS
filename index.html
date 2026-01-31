@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPODS | Precision Engineering & Machining</title>
+    <meta name="description" content="Premium machine shop services. High-precision engineering, CNC machining, and rapid prototyping.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-accent">IP</span>ODS
+            </a>
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i data-lucide="menu"></i>
+            </button>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">Home</a> <!-- updated href -->
+                <a href="services.html" class="nav-link">Services</a> <!-- updated href -->
+                <a href="about.html" class="nav-link">About</a> <!-- updated href -->
+                <a href="contact.html" class="nav-link btn btn-primary">Get a Quote</a> <!-- updated href -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="video-background">
+            <video autoplay muted loop playsinline poster="">
+                <source src="assets/hero-bg.mp4" type="video/mp4">
+                <track src="assets/hero-bg.vtt" kind="descriptions" srclang="en" label="English">
+            </video>
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-label fade-in">
+                <i data-lucide="cpu"></i> Precision Engineering
+            </div>
+            <h1 class="hero-title fade-in-delay-1">
+                Engineering <span class="text-gradient">Perfection</span><br>
+                For the Future
+            </h1>
+            <p class="hero-subtitle fade-in-delay-2">
+                Advanced CNC machining and rapid prototyping services for aerospace, automotive, and defense industries.
+            </p>
+            <div class="hero-actions fade-in-delay-3">
+                <a href="#contact" class="btn btn-primary">Start Project <i data-lucide="arrow-right"></i></a>
+                <a href="#services" class="btn btn-outline">Explore Capabilities</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Core <span class="text-gradient">Services</span></h2>
+                <p class="section-subtitle">Delivering micron-level precision across a spectrum of manufacturing needs.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="settings"></i>
+                    </div>
+                    <h3 class="card-title">CNC Machining</h3>
+                    <p class="card-text">
+                        3, 4, and 5-axis milling and turning for complex geometries with tight tolerances.
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3 class="card-title">Rapid Prototyping</h3>
+                    <p class="card-text">
+                        Fast turnaround from CAD to physical part, ensuring your design is production-ready.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <h3 class="card-title">Quality Assurance</h3>
+                    <p class="card-text">
+                        ISO 9001 certified processes with full CMM inspection reports and material traceability.
+                    </p>
+                </div>
+                
+                 <!-- Service 4 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="layers"></i>
+                    </div>
+                    <h3 class="card-title">Surface Finishing</h3>
+                    <p class="card-text">
+                        Anodizing, powder coating, and bead blasting to ensure parts perform and look perfect.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section with Video Panel -->
+    <section id="about" class="section bg-darker">
+        <div class="split-layout">
+            <div class="split-content">
+                <div class="hero-label">
+                    <i data-lucide="users"></i> About Us
+                </div>
+                <h2 class="section-title">Built on <span class="text-gradient">Innovation</span></h2>
+                <p class="section-text">
+                    At IPODS, we combine traditional craftsmanship with state-of-the-art technology. 
+                    Our shop floor is optimized for efficiency, allowing us to handle everything from 
+                    single prototypes to high-volume production runs without compromising on quality.
+                </p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Years Exp.</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5K+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">On-Time</span>
+                    </div>
+                </div>
+                <a href="#contact" class="btn btn-outline" style="margin-top: 2rem;">Meet the Team</a>
+            </div>
+            <div class="split-visual">
+                <video autoplay muted loop playsinline class="visual-video">
+                    <source src="assets/processing.mp4" type="video/mp4">
+                    <track src="assets/processing.vtt" kind="descriptions" srclang="en" label="English">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="visual-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature/Process Section -->
+    <section class="section">
+        <div class="section-container">
+             <div class="section-header">
+                <h2 class="section-title">The <span class="text-gradient">Process</span></h2>
+                <p class="section-subtitle">From blueprint to shipment, we ensure transparency and speed.</p>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h3>Consultation</h3>
+                    <p>Reviewing CAD files and requirements.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h3>Engineering</h3>
+                    <p>CAM programming and optimization.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h3>Machining</h3>
+                    <p>Precision manufacturing on our floor.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h3>Delivery</h3>
+                    <p>Quality check and secure shipping.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Video Break Section -->
+    <section class="video-break">
+        <video autoplay muted loop playsinline>
+             <source src="assets/machining.mp4" type="video/mp4">
+             <track src="assets/machining.vtt" kind="descriptions" srclang="en" label="English">
+        </video>
+        <div class="overlay"></div>
+        <div class="video-break-content">
+             <h2>Ready to Scale?</h2>
+             <p>Let us handle the complexity of manufacturing so you can focus on design.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+                    <p class="contact-desc">
+                        Have a project in mind? Send us your drawings for a quick quote.
+                    </p>
+                    
+                    <div class="info-item">
+                        <div class="info-icon"><i data-lucide="map-pin"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123 Innovation Drive, Tech City, ST 90210</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon"><i data-lucide="mail"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>quotes@ipods-machining.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon"><i data-lucide="phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! This is a demo form.');">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="details">Project Details</label>
+                        <textarea id="details" rows="4" placeholder="Tell us about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Send Request</button>
+                    <p class="form-footer">We typically reply within 24 hours.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <a href="#" class="logo">
+                    <span class="logo-accent">IP</span>ODS
+                </a>
+                <p class="footer-text">
+                    Precision delivered. Engineering the impossible.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="#">CNC Machining</a>
+                <a href="#">Prototyping</a>
+                <a href="#">Finishing</a>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#">Careers</a>
+            </div>
+            <div class="footer-col">
+                <h4>Social</h4>
+                <div class="social-links">
+                    <a href="#"><i data-lucide="linkedin"></i></a>
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                    <a href="#"><i data-lucide="instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 IPODS Machining. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons & Simple Interactions -->
+    <script>
+        // Start Lucide
+        lucide.createIcons();
+
+        // Mobile Menu Toggle
+        const mobileBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        if(mobileBtn) {
+            mobileBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                const icon = navLinks.classList.contains('active') ? 'x' : 'menu';
+                // Re-render icon
+                mobileBtn.innerHTML = `<i data-lucide="${icon}"></i>`;
+                lucide.createIcons();
+            });
+        }
+        
+        // Simple Navbar Scroll Effect
+        const nav = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Simple Reveal on Scroll
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.card, .process-step, .section-title, .split-content').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+            observer.observe(el);
+            
+            // Add a class to handle the actual transition when visible
+            el.classList.add('reveal-on-scroll');
+        });
+
+        // Use the same logic for elements that already have the class manually added
+         document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+            observer.observe(el);
+        });
+
+        // Inject dynamic style for reveal
+        const style = document.createElement('style');
+        style.textContent = `
+            .reveal-on-scroll.visible {
+                opacity: 1 !important;
+                transform: translateY(0) !important;
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>

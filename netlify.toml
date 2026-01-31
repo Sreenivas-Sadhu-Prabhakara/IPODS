@@ -1,0 +1,20 @@
+# Netlify Configuration for Static HTML
+[build]
+  publish = "."
+  command = "# no build needed for pure static"
+
+#  The redirects below are for SPA (Single Page Apps).
+#  For multi-page static sites, normal file resolution is usually enough.
+#  However, if you want specific rewrites or redirects they go here.
+#  Removing the "/*" to "/index.html" rewrite because this is a MULTI-PAGE site,
+#  and we want /services.html to serve services.html, not index.html by default
+#  (unless you're incorrectly handling history API, but this is pure HTML).
+#
+#  If you insist on clean URLs (e.g., /services instead of /services.html), 
+#  you can use the "pretty_urls" feature in Netlify settings or enable it here.
+
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200
+#   force = false
