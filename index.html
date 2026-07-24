@@ -5,7 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPODS | Precision Engineering & Machining</title>
     <meta name="description" content="Premium machine shop services. High-precision engineering, CNC machining, and rapid prototyping.">
-    
+
+    <!-- Canonical & crawl -->
+    <link rel="canonical" href="https://www.outsourcedimension.com/">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <!-- Icons & theme -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#0A0A0A">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="IPODS — Inter-Pacific Outsourced Dimensions Services">
+    <meta property="og:title" content="IPODS | Precision Engineering & Machining">
+    <meta property="og:description" content="Precision CNC machining, rapid prototyping, EDM and surface finishing from Biñan, Laguna, Philippines — serving aerospace, automotive and defense clients worldwide.">
+    <meta property="og:url" content="https://www.outsourcedimension.com/">
+    <meta property="og:image" content="https://www.outsourcedimension.com/assets/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IPODS | Precision Engineering & Machining">
+    <meta name="twitter:description" content="Precision CNC machining, rapid prototyping and metal fabrication from Biñan, Laguna, Philippines.">
+    <meta name="twitter:image" content="https://www.outsourcedimension.com/assets/og-image.jpg">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["Organization", "LocalBusiness"],
+          "@id": "https://www.outsourcedimension.com/#business",
+          "name": "Inter-Pacific Outsourced Dimensions Services",
+          "alternateName": "IPODS",
+          "url": "https://www.outsourcedimension.com/",
+          "email": "sales@outsourcedimension.com",
+          "telephone": "+63-917-308-0314",
+          "foundingDate": "2006",
+          "image": "https://www.outsourcedimension.com/assets/og-image.jpg",
+          "logo": "https://www.outsourcedimension.com/apple-touch-icon.png",
+          "slogan": "Engineering Perfection For the Future",
+          "description": "Precision engineering and CNC machining shop in Biñan, Laguna, Philippines. ISO 9001:2015 and ISO 14001:2015 certified. CNC machining, rapid prototyping, EDM, surface finishing and CMM inspection for aerospace, automotive and defense clients worldwide.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "S-Drive Bldg., Gen. Malvar Highway, Tubigan",
+            "addressLocality": "Biñan",
+            "addressRegion": "Laguna",
+            "postalCode": "4024",
+            "addressCountry": "PH"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 14.3299153,
+            "longitude": 121.0695896
+          },
+          "hasMap": "https://maps.app.goo.gl/MZY9LTuDSqVsEK5m8",
+          "areaServed": [
+            { "@type": "Country", "name": "Philippines" },
+            { "@type": "Place", "name": "Worldwide" }
+          ],
+          "knowsAbout": ["CNC Machining", "Rapid Prototyping", "EDM Wire Cutting", "Die Sinking", "Surface Finishing", "CMM Inspection", "Metal Fabrication", "Tooling"],
+          "makesOffer": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CNC Machining" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rapid Prototyping" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Quality Assurance & CMM Inspection" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Surface Finishing" } }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.outsourcedimension.com/#website",
+          "url": "https://www.outsourcedimension.com/",
+          "name": "IPODS — Inter-Pacific Outsourced Dimensions Services",
+          "publisher": { "@id": "https://www.outsourcedimension.com/#business" }
+        }
+      ]
+    }
+    </script>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +96,7 @@
     <link rel="stylesheet" href="css/style.css">
     
     <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@1.26.0/dist/umd/lucide.min.js"></script>
 </head>
 <body>
 
@@ -23,8 +104,8 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-accent">IP</span>ODS
-            </a>
+                <span class="logo-accent">IP</span>ODS</a>
+		<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;">Inter-Pacific Outsourced Dimensions Services</span>
             <!-- Mobile Menu Toggle Button -->
             <button class="mobile-menu-btn" aria-label="Toggle Menu">
                 <i data-lucide="menu"></i>
@@ -41,7 +122,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="video-background">
-            <video autoplay muted loop playsinline poster="">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/hero-poster.jpg">
                 <source src="assets/hero-bg.mp4" type="video/mp4">
                 <track src="assets/hero-bg.vtt" kind="descriptions" srclang="en" label="English">
             </video>
@@ -84,7 +165,7 @@
                     </div>
                     <h3 class="card-title">CNC Machining</h3>
                     <p class="card-text">
-                        3, 4, and 5-axis milling and turning for complex geometries with tight tolerances.
+                        Multiple-axis milling and turning for complex geometries with tight tolerances.
                     </p>
                 </div>
 
@@ -120,6 +201,29 @@
                         Anodizing, powder coating, and bead blasting to ensure parts perform and look perfect.
                     </p>
                 </div>
+
+             <!-- Service 5 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="layers"></i>
+                    </div>
+                    <h3 class="card-title">Innovation Laboratory</h3>
+                    <p class="card-text">
+                        Do you have a new idea or product that can make a difference? Visit us for collaboration for your machine build.
+                    </p>
+                </div>
+
+	      <!-- Service 6 -->
+                <div class="card">
+                    <div class="card-icon">
+                        <i data-lucide="layers"></i>
+                    </div>
+                    <h3 class="card-title">Sustainability</h3>
+                    <p class="card-text">
+                        ISO 14001 certified processes that seeks to contribute in environment conservation and sustainable manufacturing.
+                    </p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -139,7 +243,7 @@
                 </p>
                 <div class="stats-grid">
                     <div class="stat-item">
-                        <span class="stat-number">15+</span>
+                        <span class="stat-number">20+</span>
                         <span class="stat-label">Years Exp.</span>
                     </div>
                     <div class="stat-item">
@@ -224,7 +328,7 @@
                         <div class="info-icon"><i data-lucide="map-pin"></i></div>
                         <div>
                             <h4>Location</h4>
-                            <p>123 Innovation Drive, Tech City, ST 90210</p>
+                            <p>S-Drive Bldg., Gen. Malvar Highway, Tubigan, Biñan Laguna 4024 PH</p>
                         </div>
                     </div>
                     
@@ -232,7 +336,7 @@
                         <div class="info-icon"><i data-lucide="mail"></i></div>
                         <div>
                             <h4>Email</h4>
-                            <p>quotes@ipods-machining.com</p>
+                            <p>sales@outsourcedimension.com</p>
                         </div>
                     </div>
                     
@@ -240,23 +344,25 @@
                         <div class="info-icon"><i data-lucide="phone"></i></div>
                         <div>
                             <h4>Phone</h4>
-                            <p>+1 (555) 123-4567</p>
+                            <p>+63 (917) 308-0314</p>
                         </div>
                     </div>
                 </div>
                 
-                <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! This is a demo form.');">
+                <form class="contact-form" name="quote-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+                    <input type="hidden" name="form-name" value="quote-request">
+                    <p hidden><label>Don't fill this out if you're human: <input name="bot-field"></label></p>
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="john@example.com" required>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
                     </div>
                     <div class="form-group">
                         <label for="details">Project Details</label>
-                        <textarea id="details" rows="4" placeholder="Tell us about your project..."></textarea>
+                        <textarea id="details" name="details" rows="4" placeholder="Tell us about your project..."></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary full-width">Send Request</button>
                     <p class="form-footer">We typically reply within 24 hours.</p>
@@ -269,7 +375,7 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-col">
-                <a href="#" class="logo">
+                <a href="index.html" class="logo">
                     <span class="logo-accent">IP</span>ODS
                 </a>
                 <p class="footer-text">
@@ -278,15 +384,14 @@
             </div>
             <div class="footer-col">
                 <h4>Services</h4>
-                <a href="#">CNC Machining</a>
-                <a href="#">Prototyping</a>
-                <a href="#">Finishing</a>
+                <a href="services.html">CNC Machining</a>
+                <a href="services.html">Prototyping</a>
+                <a href="services.html">Finishing</a>
             </div>
             <div class="footer-col">
                 <h4>Company</h4>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-                <a href="#">Careers</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
             </div>
             <div class="footer-col">
                 <h4>Social</h4>
@@ -298,7 +403,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 IPODS Machining. All rights reserved.</p>
+            <p>&copy; 2006&ndash;<span id="year">2026</span> Inter-Pacific Outsourced Dimensions Services. All rights reserved.</p>
         </div>
     </footer>
 
@@ -306,6 +411,14 @@
     <script>
         // Start Lucide
         lucide.createIcons();
+
+        // Current year in footer
+        (function(){ var y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear(); })();
+
+        // Respect reduced-motion preference: pause background videos
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            document.querySelectorAll('video').forEach(function(v){ v.removeAttribute('autoplay'); v.pause(); });
+        }
 
         // Mobile Menu Toggle
         const mobileBtn = document.querySelector('.mobile-menu-btn');
